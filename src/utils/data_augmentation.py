@@ -9,15 +9,7 @@ import cv2
 
 
 class ImageGenerator(object):
-    """ Image generator with saturation, brightness, lighting, contrast,
-    horizontal flip and vertical flip transformations. It supports
-    bounding boxes coordinates.
 
-    TODO:
-        - Finish support for not using bounding_boxes
-            - Random crop
-            - Test other transformations
-    """
     def __init__(self, ground_truth_data, batch_size, image_size,
                  train_keys, validation_keys,
                  ground_truth_transformer=None,

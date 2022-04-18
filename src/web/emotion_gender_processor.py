@@ -15,8 +15,8 @@ from utils.inference import load_detection_model
 from utils.inference import load_image
 from utils.preprocessor import preprocess_input
 
-def process_image(image):
 
+def process_image(image):
     try:
         # parameters for loading data and images
         detection_model_path = './trained_models/detection_models/haarcascade_frontalface_default.xml'
